@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FontAwesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Light galley link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.4.0/css/lightgallery.min.css" integrity="sha512-xLycG5abLZLbm0komL9tmCAgzIKW1BpA8MvK1SRLNyWvKos+3xXCGYzYlFGoav7OH3275iEfKUWEgMnv+K5JWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJlSK6QOp6nF0sz04k80PZlOAAIfRemb" crossorigin="anonymous">
+
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="./style.css">
+ <!--Imagenes recolectadas de https://storyset.com/search -->
+    <title>UniRider</title>
+</head>
+<body>
+    
+    <!--INICIO HEADER-->
+    <!--Ely-->
+    <header class="header">
+        
+        <div class="logoUF">
+            <img src="img/logoUniRider.png" alt="logoUF">
+        </div>
+        <nav class="navbar">
+            <a data-i18n="homes" href="#home">Inicio</a>
+            <a data-i18n="Service" href="#about">Servicio</a>
+            <a data-i18n="Features" href="#producto">Funcionalidades</a>
+            <a data-i18n="Plans" href="#planes">planes </a>
+            <a data-i18n="About" href="#equipo">Nosotros</a>
+            <a data-i18n="ContactUs" href="#contacto">Contacto</a>
+            
+
+        </nav>
+                
+
+
+            <div class="mybutton">
+                <select id="lang-selector" onchange="setLanguage()">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+                <a><button data-i18n="login" id="signin-btn" onclick="window.open('https://deploytb2opensource.web.app/login', '_blank')"></button></a>
+                <a><button data-i18n="Register" id="register-btn" onclick="window.open('https://deploytb2opensource.web.app/register', '_blank')"></button></a>
+
+                
+            </div>
+            
+            
+
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+        
+    </header>
+
+
+    <!--INICIO HOME-->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>ㅤㅤ</h3>
+                <h3 data-i18n="welcome" >Bienvenido a <span>UniRider</span></h3>
+                <p data-i18n="service_description">Ofrecemos la oportunidad de viajar
+                 de manera eficiente a un precio accesible.</p>
+                <P data-i18n="no_more_waiting">Dile adiós a las largas esperas 
+                y a los viajes estresantes.</P>
+                
+            </div>
+            <!-- FILEPATH: /C:/Users/Riva/Desktop/LANDINGPAGE-APPWEB/index.html -->
+            <!-- BEGIN: ed8c6549bwf9 -->
+            <div class="taxi">
+            <img src="img/taxiMain.png" alt="" class="no gf taxi">
+        </div>
+            <div class="universidades">
+               
+                    <img src="img/universidades/CayetanoHeredia.png" alt="" class="floating-image">
+                    <img src="img/universidades/PUCP.png" alt="" class="floating-image">
+                    <img src="img/universidades/SANMARCOS.jpg" alt="" class="floating-image">
+                    <img src="img/universidades/UCIENTIFICA.png" alt="" class="floating-image">
+                    <img src="img/universidades/UCV.png" alt="" class="floating-image">
+                    <img src="img/universidades/ULIMA.jpg" alt="" class="floating-image">
+                    <img src="img/universidades/UNI.png" alt="" class="floating-image">
+                    <img src="img/universidades/UP.jpg" alt="" class="floating-image">
+                    <img src="img/universidades/UPC.png" alt="" class="floating-image">
+                    <img src="img/universidades/UPN.png" alt="" class="floating-image">
+                    <img src="img/universidades/URICARDOPALMA.jpg" alt="" class="floating-image">
+                    <img src="img/universidades/USIL.jpg" alt="" class="floating-image">
+                   
+  
+            </div>
+           
+        </section>
+        
+        
+    <!--FIN HOME-->
+
+    <!--INICIO ABOUT-->
+        <section class="about" id="about">
+            <h1>ㅤ</h1>
+            <h1>ㅤ</h1>
+            <h1>ㅤ</h1>
+           
+            <h1  data-i18n="service_title" class="heading">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ    Carpooling SERVICE</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="img/mockups/wireframesTools.png" alt="imagenTeam" onmouseover="this.style.transform = 'scale(1.2)'" onmouseout="this.style.transform = 'scale(1)'">
+                    
+                </div>
+                <div class="content" id="content">
+                    
+                    <p></p>
+                    <p data-i18n="content">UniRider es una plataforma de carpooling que ofrece a los estudiantes la oportunidad de viajar de manera eficiente y asequible. Nuestro servicio elimina las largas esperas y los viajes estresantes, brindándote la tranquilidad que necesitas para concentrarte en tu educación. Únete a nuestra comunidad de estudiantes satisfechos y experimenta un viaje sin preocupaciones hacia el éxito académico.</p>
+                    <h1>ㅤㅤ</h1>
+                    <h1>ㅤㅤ</h1>
+                    <h1></h1>
+                    <h1 data-i18n="strengths">Fortalezas:</h1>
+                    <div class="icons-container" id="fortalezas">
+                        <div class="icons" >
+                            <img src="img/precios-bajos.png" alt="precios-bajos" onmouseover="this.style.transform = 'scale(1.2)'" onmouseout="this.style.transform = 'scale(1)'">
+                            <h2>ㅤㅤ </h2>
+                            <h2>ㅤㅤ</h2>
+                            <h3 data-i18n="low-prices">Precios bajos</h3>
+                        </div>
+                        
+                        <div  class="icons"  id="fortalezas">
+                            <img src="img/TIME.png" alt="tiempo" onmouseover="this.style.transform = 'scale(1.2)'" onmouseout="this.style.transform = 'scale(1)'">
+                            <h2>ㅤ </h2>
+                            <h2>ㅤ</h2>
+                            <h3 data-i18n="efficiency">Eficiencia</h3>
+                        </div>
+
+                        <div  class="icons" id="fortalezas">
+                            <img src="img/cmodidad.png"alt="tiempo" onmouseover="this.style.transform = 'scale(1.2)'" onmouseout="this.style.transform = 'scale(1)'">
+                            <h2>ㅤ</h2>
+                            <h3 data-i18n="comfort">Comodidad</h3>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="producto" id="producto">
+        <h1 data-i18n="features_title" class="heading">Nuestras principales funciones</h1>
+        <div class="box-container">
+            <!--1-->
+            <div class="box">
+                <img src="img/funcionalidades/emparejamiento.png" alt="UniRider">
+                <h3 data-i18n="location_and_schedule_matching">Sistema de emparejamiento basado en ubicación y horarios</h3>
+                
+            </div>
+            <!--2-->
+            <div class="box">
+                <img src="img/funcionalidades/ubicacionTiemporeal.png" alt="UniRider">
+                <h3 data-i18n="real_time_location">Ubicacion en tiempo real</h3>
+                
+            </div>
+            <!--3-->
+            <div class="box">
+                <img src="img/funcionalidades/perfil.png" alt="UniRider">
+                <h3 data-i18n="profile"> perfil propio </h3>
+               
+            </div>
+            <!--4-->
+            <div class="box">
+                <img src="img/funcionalidades/noti_cancelacion.png" alt="UniRider">
+                <h3 data-i18n="trip_cancellation_notification">Notificacion cancelacion de viaje</h3>
+                
+            </div>
+            <!--5-->
+            <div class="box">
+                <img src="img/funcionalidades/seleccionConductor.png" alt="UniRider">
+                <h3 data-i18n="driver_selection">Seleccion de conductores</h3>
+                
+            </div>
+            <!--6-->
+            <div class="box">
+                <img src="img/funcionalidades/puntos.png" alt="UniRider">
+                <h3 data-i18n="points_accumulation">Acumulación de puntos</h3>
+                
+            </div>
+            <!--7-->
+            <div class="box">
+                <img src="img/funcionalidades/seguridad.png" alt="UniRider">
+                <h3 data-i18n="security">Seguridad</h3>
+                
+            </div>
+            <div class="box">
+                <img src="img/funcionalidades/chatEn linea.png" alt="UniRider">
+                <h3 data-i18n="online_chat">Chat en linea</h3>
+                
+            </div>
+            <!--8-->
+            <div class="box">
+                <img src="img/funcionalidades/reservaAsientos.png" alt="UniRider">
+                <h3 data-i18n="seat_reservations">Reservas de asientos</h3>
+               
+            </div>
+            <div class="box">
+                <img src="img/funcionalidades/calificarconductor.png" alt="UniRider">
+                <h3 data-i18n="driver_rating">Calificación al conductor</h3>
+                
+            </div>
+            <div class="box">
+                <img src="img/funcionalidades/ververfilconductor.png" alt="UniRider">
+                <h3 data-i18n="view_driver_profile">Ver perfil del conductor</h3>
+                
+            </div>
+            <div class="box">
+                <img src="img/funcionalidades/botonreporteemergencias.png" alt="UniRider">
+                <h3 data-i18n="emergency_report_button">Boton de reportes de emergencia</h3>
+               
+            </div>
+            <div class="box">
+                <img src="img/funcionalidades/reportarUsuario.png" alt="UniRider">
+                <h3 data-i18n="report_user">Reportar usuario</h3>
+                
+            </div>
+            <div class="box">
+                <img src="img/funcionalidades/metodoPago.png" alt="UniRider">
+                <h3 data-i18n="different_payment_methods">Diferentes metodos de pago</h3>
+                
+            </div>           
+            <div class="box">
+                <img src="img/funcionalidades/autenticacion.png" alt="UniRider">
+                <h3 data-i18n="student_authentication">Autenticación de estudiantes</h3>
+                
+            </div>
+            
+        </div>
+         <!--INICIO tipos de -->
+    <!-- Contenedor -->
+    <section class="planes" id="planes">
+  <div class="pricing-wrapper clearfix">
+    <!-- Titulo -->
+    <h1 class="pricing-table-title" data-i18n="plans_title">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPlanes de subscripción </h1>
+
+    <div class="pricing-table">
+      <h3 class="pricing-title">Fremium</h3>
+      <div class="price">$0<sup>/ mes</sup></div>
+      <!-- Lista de Caracteristicas / Propiedades -->
+      <ul class="table-list">
+        <h1>dos viajes <span>por dia</span></h1>
+        <h1>anuncios <span>incluido</span></h1>
+        <h1>opciones<span>limitadas</span></h1>
+
+      </ul>
+      <!-- Contratar / Comprar -->
+      <div class="table-buy">
+        <p>$0<sup data-i18n="month">/ mes</sup></p>
+        <a href="#" class="pricing-action">Ingresar</a>
+      </div>
+    </div>
+    
+    <div class="pricing-table recommended">
+      <h3 class="pricing-title">Premium conductor</h3>
+      <div class="price"> S/20.00<sup data-i18n="month">/ mes</sup></div>
+      <!-- Lista de Caracteristicas / Propiedades -->
+      <ul class="table-list">
+        <h1>acumulación de puntos  <span>canjeables</span></h1>
+        <h1>personalizacion <span>de precios en un rango determinado</span></h1>
+        <h1>notificaciones en tiempo real <span>para mantener a los usuarios informados</span></h1>
+        <h1>reservas anticipadas <span>para planificar viajes con anticipación</span></h1>
+        <h1>Mayor visibilidad <span>como opción entre conductores</span></h1>
+        <h1>Acceso a eventos especiales <span>para miembros premium</span></h1> 
+    </ul>
+      <!-- Contratar / Comprar -->
+      <div class="table-buy">
+        <p>S/20.00<sup data-i18n="month">/ mes</sup></p>
+        <a href="#" class="pricing-action">Comprar</a>
+      </div>
+    </div>
+
+    <div class="pricing-table recommended">
+      <h3 class="pricing-title">PREMIUM estudiante</h3>
+      <div class="price">S/15.00<sup data-i18n="month">/ mes</sup></div>
+      <!-- Lista de Caracteristicas / Propiedades -->
+      <ul class="table-list">
+        <h1>viajes  <span>ilimitados</span></h1>
+        <h1>Acumulación <span>de puntos por viaje realizado</span></h1>
+        <h1>Puntos<span>(2x)</span></h1>
+        <h1>Opción  <span>de reservar mas de un asiento</span></li>
+        <h1>Llevar un acompañante <span>4 veces durante el mes</span></h1>
+        <h1>Participación <span>en sorteos mensuales</span></h1>
+        <h1>calificación <span> de conductores</span></h1>
+        <h1>Descuentos exclusivos <span>en establecimientos afiliados</span></h1>
+        <h1>Acceso a eventos especiales <span>para miembros premium</span></h1>
+        <h1>Atención  <span>al cliente prioritaria</span></h1>
+      </ul>
+      <!-- Contratar / Comprar -->
+      <div class="table-buy">
+        <p>S/15.00<sup data-i18n="month">/ mes</sup></p>
+        <a href="#" class="pricing-action">Comprar</a>
+      </div>
+    </div>
+  </div>
+</section>
+        <!-- Fin de tipo usuario>
+    </section>
+
+    <!--INICIO EQUIPO-->
+        <section class="equipo" id="equipo">
+        <h1 class="heading" data-i18n="team"> Equipo </h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <span>01</span>
+                <img src="img/integrantes/Ely.jpeg" alt="fotoPerfil">
+                <div class="content">
+                    <h3>Ely Cortez </h3>
+                    <p>Alumno</p>
+                </div>
+            </div>
+        
+            <div class="box">
+                <span>02</span>
+                <img src="img/integrantes/Eric.jpg" alt="fotoPerfil">
+                <div class="content">
+                    <h3>Eric Agama</h3>
+                    <p>Alumno</p>
+                </div>
+            </div>
+           
+            <div class="box">
+                <span>03</span>
+                <img src="img/integrantes/Gustavo.jpg" alt="fotoPerfil">
+                <div class="content">
+                    <h3>Gustavo Pardo </h3>
+                    <p>Alumno</p>
+                </div>
+            </div>
+           
+            <div class="box">
+                <span>04</span>
+                <img src="img/integrantes/Harold.jpg" alt="fotoPerfil">
+                <div class="content">
+                    <h3>Harold Mayta </h3>
+                    <p>Alumno</p>
+                </div>
+            </div>
+            
+            <div class="box">
+                <span>05</span>
+                <img src="img/integrantes/Angel.jpg" alt="fotoPerfil">
+                <div class="content">
+                    <h3>Luis Anampa</h3>
+                    <p>Alumno</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN EQUIPO-->
+    
+    <section class="contacto" id="contacto">
+        <div id="container">
+            <h1 data-i18n="contact_us"> &bull; Contact Us&bull;   </h1>
+            <div class="underline">
+            </div>
+            <div class="icon_wrapper">
+              <svg class="icon" viewBox="0 0 145.192 145.192">
+                <path d="M126.82,32.694c-2.804,0-5.08,2.273-5.08,5.075v2.721c-1.462,0-2.646,1.185-2.646,2.647v1.995    c0,1.585,1.286,2.873,2.874,2.873h20.577c1.462,0,2.646-1.185,2.646-2.647v-3.041c0-1.009-0.816-1.825-1.823-1.825v-2.722    c0-2.802-2.276-5.075-5.079-5.075h-1.985v-3.829c0-3.816-3.095-6.912-6.913-6.912h-0.589h-20.45c0-2.67-2.164-4.835-4.833-4.835    H56.843c-2.67,0-4.835,2.165-4.835,4.835H34.356v-3.384h-9.563v3.384v1.178h-7.061v1.416c-2.67,0.27-10.17,1.424-13.882,5.972    c-1.773,2.17-2.44,4.791-1.983,7.793c0.463,3.043,1.271,6.346,2.128,9.841c2.354,9.616,5.024,20.515,0.549,28.077    C2.647,79.44-3.125,90.589,2.201,99.547c4.123,6.935,13.701,10.44,28.5,10.44c1.186,0,2.405-0.023,3.658-0.068v9.028h-0.296    c-2.516,0-4.558,2.039-4.558,4.558v4.566h100.04v-4.564c0-2.519-2.039-4.558-4.558-4.558h-0.297V84.631h0.297    c2.519,0,4.558-2.037,4.558-4.556v-0.009c0-2.516-2.039-4.556-4.556-4.556l-36.786-0.009V61.973c0-2.193-1.777-3.971-3.972-3.971    v-4.711h0.456c1.629,0,2.952-1.32,2.952-2.949h14.227V34.459h1.658c2.672,0,4.834-2.165,4.834-4.834h20.45v3.069H126.82z     M34.06,75.511c-2.518,0-4.558,2.04-4.558,4.556v0.009c0,2.519,2.042,4.556,4.558,4.556h0.296v24.12l-0.042-1.168    c-15.994,0.574-26.122-2.523-30.106-9.229C-0.464,90.5,4.822,80.347,6.55,77.423c4.964-8.382,2.173-19.774-0.29-29.825    c-0.843-3.442-1.639-6.696-2.088-9.638c-0.354-2.35,0.129-4.3,1.484-5.958c3.029-3.714,9.509-4.805,12.076-5.1v1.233h7.061v1.49    v2.684c-2.403,1.114-4.153,2.997-4.676,5.237H18.15c-0.584,0-1.056,0.474-1.056,1.056v0.83c0,0.584,0.475,1.056,1.056,1.056h1.984    c0.561,2.18,2.304,3.999,4.658,5.092v0.029c0,0-2.282,20.823,16.479,22.099v1.102c0,1.177,0.955,2.133,2.133,2.133h3.297    c1.178,0,2.133-0.956,2.133-2.133V50.135c0-1.177-0.955-2.132-2.133-2.132h-3.297c-1.178,0-2.133,0.955-2.133,2.132    c-1.575-0.235-5.532-1.17-6.635-4.547c2.36-1.092,4.109-2.913,4.669-5.097h1.308c0.722,0,1.309-0.584,1.309-1.308v-0.578    c0-0.584-0.475-1.056-1.056-1.056h-1.539c-0.542-2.332-2.416-4.271-4.968-5.363v-2.559h17.651c0,2.67,2.166,4.835,4.836,4.835 h2.392v15.88h13.639c0,1.629,1.321,2.949,2.951,2.949h0.899v4.711c-2.194,0-3.972,1.778-3.972,3.971v13.529L34.06,75.511z     M95.188,101.78c0,8.655-7.012,15.665-15.664,15.665c-8.653,0-15.667-7.01-15.667-15.665c0-8.647,7.014-15.664,15.667-15.664    C88.177,86.116,95.188,93.132,95.188,101.78z M97.189,45.669h-9.556c0-0.896-0.726-1.62-1.619-1.62H74.494    c-0.896,0-1.621,0.727-1.621,1.62h-8.967v-11.21h33.283V45.669z"></path>
+                <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
+              </svg>
+            </div>
+            <form action="#" method="post" id="contact_form">
+              <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Ingrese su nombre y apellido" name="name" id="name_input" required>
+              </div>
+              <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Ingrese su correo" name="email" id="email_input" required>
+              </div>
+              <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="Ingrese su numero telefonico" name="telephone" id="telephone_input" required>
+              </div>
+              <div class="subject">
+                <label for="subject"></label>
+                
+              </div>
+              <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Te gustaria hablar de" id="message_input" cols="30" rows="5" required></textarea>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Enviar mensaje" id="form_button" />
+<a href="#" class="pricing-action" id="comprar_button"></a>
+<script>
+    document.getElementById("form_button").addEventListener("click", function(event){
+        event.preventDefault(); 
+        window.location.href = "#"; 
+    });
+</script>
+
+              </div>
+            </form><!-- // End form -->
+          </div><!-- // End #container -->
+    </section>
+
+    <!--INICIO FOOTER-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box1">
+                <span></span>
+                
+                <div class="content">
+                    <img src="img/logoStarUp.png" alt="fotoStarUpFoo" style="width: 200px; height: auto;" class="logo">
+                    <h3>ㅤㅤㅤStarUp </h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <h4 data-i18n="follow_us">Siguenos  en Nuestras Redes</h4>
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fab fab fa-twitter"></i></a>
+            </div>
+            <div class="derechos">
+                <h3 data-i18n="copyright">UniRider 2024 Derechos de autor reservado</h3>
+             </div>
+        </div>
+                    
+        
+    </section>
+    <!--FIN FOOTER-->
+    <!--FIN FOOTER-->
+    <!--Scrips JS-->
+    <script src="/script.js">
+    </script>
+</body>
+</html>
+
